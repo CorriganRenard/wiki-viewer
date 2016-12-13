@@ -85,6 +85,7 @@ function wikiApiRequest(){
         });
         //reset the form
         document.getElementById("search").reset();
+        return false;
     }
 }
 // when document is ready, start listening
